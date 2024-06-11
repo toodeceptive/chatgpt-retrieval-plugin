@@ -8,35 +8,35 @@ packages = [{include = "server"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-fastapi = "^0.92.0"
+fastapi = "^0.109.1"
 uvicorn = "^0.20.0"
 openai = "^0.27.5"
 python-dotenv = "^0.21.1"
-pydantic = "^1.10.5"
+pydantic = "^1.10.13"
 tenacity = "^8.2.1"
 tiktoken = "^0.2.0"
 numpy = "^1.24.2"
 docx2txt = "^0.8"
 PyPDF2 = "^3.0.1"
 python-pptx = "^0.6.21"
-python-multipart = "^0.0.6"
+python-multipart = "^0.0.7"
 arrow = "^1.2.3"
 chromadb = "^0.3.25"
 pinecone-client = "^2.1.0"
 weaviate-client = "^3.12.0"
 pymilvus = "^2.2.2"
-qdrant-client = {version = "^1.0.4", python = "<3.12"}
+qdrant-client = {version = "^1.9.0", python = "<3.12"}
 redis = "4.5.4"
 supabase = "^1.0.2"
 psycopg2 = "^2.9.5"
 llama-index = "0.5.4"
-azure-identity = "^1.12.0"
+azure-identity = "^1.16.1"
 azure-search-documents = "11.4.0b8"
 pgvector = "^0.1.7"
 psycopg2cffi = {version = "^2.9.0", optional = true}
 loguru = "^0.7.0"
 elasticsearch = "8.8.2"
-pymongo = "^4.3.3"
+pymongo = "^4.6.3"
 
 [tool.poetry.scripts]
 start = "server.main:start"
